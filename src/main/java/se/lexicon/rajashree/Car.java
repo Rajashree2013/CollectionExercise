@@ -9,7 +9,12 @@ public class Car {
     private String model;
 
 
+/*
+12.  Create a new class and call it Car. Add fields for Id,Brand and Model + getters and setters
+Create a new hashMap of type <Integer,Car> and populate it with elements containing an
+id(Integer) and a car object(Car). Lastly, print out only the car's brand.
 
+ */
 
     public Car(String car) {
         //this.car = car;
@@ -48,7 +53,6 @@ public class Car {
         hascar.put(003,new Car("TOYOTA"));
         hascar.put(004,new Car("VOLVO"));
         hascar.put(005,new Car("KIA"));
-
 
         for (Object obj : hascar.values()) {
             System.out.println(" question no 12  value: " + hascar.get(obj));
